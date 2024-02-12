@@ -31,7 +31,7 @@ let package = Package(
         // packages this package depends on.
         .target(name: "YandexMapPackageWrapper",
                 dependencies: [
-                    .product(name: "YandexMapsMobile", package: "YandexMapsMobileLite"),
+                    .product(name: "YandexMapsMobile", package: "YandexMapsMobile"),
                 ],
                 resources: [
                   .process("Resources"),
